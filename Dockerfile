@@ -1,3 +1,3 @@
-FROM container-registry.oracle.com/java/jdk:11-oraclelinux8
+FROM container-registry.oracle.com/java/openjdk:15.0.2-oraclelinux7
 
 COPY target/*.jar /
